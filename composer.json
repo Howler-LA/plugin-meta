@@ -1,0 +1,14 @@
+{
+    "name": "craigfowler/plugin-meta",
+    "description": "Plugins I use a lot",
+    "type": "wordpress-muplugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Craig Fowler",
+            "email": "craig@howler.studio"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
