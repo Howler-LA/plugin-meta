@@ -1,6 +1,6 @@
 {
     "name": "craigfowler/plugin-meta",
-    "description": "Plugins I use a lot",
+    "description": "A simple meta package for my commonly used WordPress plugins",
     "type": "wordpress-muplugin",
     "license": "MIT",
     "authors": [
@@ -17,9 +17,14 @@
                 "wpackagist-plugin/*",
                 "wpackagist-theme/*"
             ]
+        },
+        {
+          "type": "composer",
+          "url": "https://connect.advancedcustomfields.com"
         }
     ],
     "require": {
+        "wpengine/advanced-custom-fields-pro": "*",
         "log1x/modern-acf-options": "dev-master",
         "log1x/modern-login": "dev-master",
         "wpackagist-plugin/duplicate-page": "^4.3",
@@ -35,6 +40,7 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
+        "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true
         }
