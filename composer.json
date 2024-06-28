@@ -9,6 +9,32 @@
             "email": "craig@howler.studio"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "require": {
+        "log1x/modern-acf-options": "dev-master",
+        "log1x/modern-login": "dev-master",
+        "wpackagist-plugin/duplicate-page": "^4.3",
+        "wpackagist-plugin/enable-media-replace": "^4.0",
+        "wpackagist-plugin/post-type-switcher": "^3.2",
+        "wpackagist-plugin/safe-svg": "^2.1",
+        "wpackagist-plugin/simple-history": "^4.1",
+        "wpackagist-plugin/two-factor": "^0.9.1",
+        "wpackagist-plugin/user-switching": "^1.5"
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
 }
