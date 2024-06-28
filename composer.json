@@ -28,7 +28,11 @@
         "wpackagist-plugin/safe-svg": "^2.1",
         "wpackagist-plugin/simple-history": "^4.1",
         "wpackagist-plugin/two-factor": "^0.9.1",
-        "wpackagist-plugin/user-switching": "^1.5"
+        "wpackagist-plugin/user-switching": "^1.5",
+        "wpackagist-plugin/advanced-database-cleaner":"*",
+        "wpackagist-plugin/redirection":"dev-trunk",
+        "wpackagist-plugin/autodescription":"dev-trunk",
+        "wpackagist-plugin/simple-page-ordering":"dev-trunk"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
