@@ -3,7 +3,7 @@
         'name' => 'craigfowler/plugin-meta',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '85c61f69abab543f0974e28ee25d9027e16a6517',
+        'reference' => 'cb99542fd7ed84d9f94ad6696d9ba6ca188d09c7',
         'type' => 'wordpress-muplugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'craigfowler/plugin-meta' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '85c61f69abab543f0974e28ee25d9027e16a6517',
+            'reference' => 'cb99542fd7ed84d9f94ad6696d9ba6ca188d09c7',
             'type' => 'wordpress-muplugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
