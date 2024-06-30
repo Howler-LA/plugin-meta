@@ -32,7 +32,9 @@
         "wpackagist-plugin/advanced-database-cleaner":"*",
         "wpackagist-plugin/redirection":"dev-trunk",
         "wpackagist-plugin/autodescription":"dev-trunk",
-        "wpackagist-plugin/simple-page-ordering":"dev-trunk"
+        "wpackagist-plugin/simple-page-ordering":"dev-trunk",
+        "wpackagist-plugin/classic-editor":"dev-trunk",
+        "wpackagist-plugin/classic-widgets":"dev-trunk"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

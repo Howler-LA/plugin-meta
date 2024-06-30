@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f65175a5dee866fbf02343e90780cb70",
+    "content-hash": "3ba09dd13136f4f4f049f4b69580b244",
     "packages": [
         {
             "name": "composer/installers",
@@ -265,6 +265,81 @@
             "time": "2022-01-27T09:50:03+00:00"
         },
         {
+            "name": "wpackagist-plugin/advanced-database-cleaner",
+            "version": "3.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner/",
+                "reference": "tags/3.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-database-cleaner.3.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-database-cleaner/"
+        },
+        {
+            "name": "wpackagist-plugin/autodescription",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/autodescription/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/autodescription.zip?timestamp=1712285445"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/autodescription/",
+            "time": "2024-04-05T02:50:45+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.zip?timestamp=1715200405"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/",
+            "time": "2024-05-08T20:33:25+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/classic-widgets",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-widgets/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-widgets.zip?timestamp=1715200885"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-widgets/",
+            "time": "2024-05-08T20:41:25+00:00"
+        },
+        {
             "name": "wpackagist-plugin/duplicate-page",
             "version": "4.5.3",
             "source": {
@@ -319,6 +394,25 @@
             "homepage": "https://wordpress.org/plugins/post-type-switcher/"
         },
         {
+            "name": "wpackagist-plugin/redirection",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redirection/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redirection.zip?timestamp=1716278063"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redirection/",
+            "time": "2024-05-21T07:54:23+00:00"
+        },
+        {
             "name": "wpackagist-plugin/safe-svg",
             "version": "2.2.5",
             "source": {
@@ -355,6 +449,25 @@
             "homepage": "https://wordpress.org/plugins/simple-history/"
         },
         {
+            "name": "wpackagist-plugin/simple-page-ordering",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-page-ordering/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.zip?timestamp=1717422871"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-page-ordering/",
+            "time": "2024-06-03T13:54:31+00:00"
+        },
+        {
             "name": "wpackagist-plugin/two-factor",
             "version": "0.9.1",
             "source": {
@@ -389,21 +502,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/user-switching/"
-        },
-        {
-            "name": "wpengine/advanced-custom-fields-pro",
-            "version": "6.3.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/v2/plugins/composer_download?p=pro&t=6.3.3"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "replace": {
-                "wpackagist-plugin/advanced-custom-fields": "self.version"
-            },
-            "type": "wordpress-plugin"
         }
     ],
     "packages-dev": [],
@@ -411,7 +509,12 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "log1x/modern-acf-options": 20,
-        "log1x/modern-login": 20
+        "log1x/modern-login": 20,
+        "wpackagist-plugin/redirection": 20,
+        "wpackagist-plugin/autodescription": 20,
+        "wpackagist-plugin/simple-page-ordering": 20,
+        "wpackagist-plugin/classic-editor": 20,
+        "wpackagist-plugin/classic-widgets": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
