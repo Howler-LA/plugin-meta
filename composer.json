@@ -20,8 +20,6 @@
         }
     ],
     "require": {
-        "log1x/modern-acf-options": "dev-master",
-        "log1x/modern-login": "dev-master",
         "wpackagist-plugin/duplicate-page": "^4.3",
         "wpackagist-plugin/enable-media-replace": "^4.0",
         "wpackagist-plugin/post-type-switcher": "^3.2",
@@ -34,7 +32,12 @@
         "wpackagist-plugin/autodescription":"dev-trunk",
         "wpackagist-plugin/simple-page-ordering":"dev-trunk",
         "wpackagist-plugin/classic-editor":"dev-trunk",
-        "wpackagist-plugin/classic-widgets":"dev-trunk"
+        "wpackagist-plugin/classic-widgets":"dev-trunk",
+        "wpackagist-plugin/contact-form-7":"dev-trunk",
+        "wpackagist-plugin/wpcf7-anti-spam":"dev-trunk",
+        "wpackagist-plugin/flamingo":"dev-trunk",
+        "wpackagist-plugin/disable-comments":"*",
+        "wpackagist-plugin/page-links-to":"dev-trunk"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
